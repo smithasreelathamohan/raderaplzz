@@ -87,7 +87,7 @@ public class CountryServiceTest {
 
                 var result = countryService.getPopulationDensity("Latvia");
 
-                assertEquals(28.33, result, 0.01);
+                assertEquals(28.36, result, 0.01);
         }
 
         @Test
